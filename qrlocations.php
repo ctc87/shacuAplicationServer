@@ -1,5 +1,5 @@
 <?php
-    $qr_id = $_GET["id"];   //www.shacu.com/loadqr.php?id=qr01af2
+    //$qr_id = $_GET["id"];   //www.shacu.com/loadqr.php?id=qr01af2
     
     // Conectar a MySQL
     $enlace = mysqli_connect("127.0.0.1", "root", "", "shacu");
@@ -12,7 +12,7 @@
     }
     
     // Si todo fue bien, recuperar la informacion de la BDD de ese QR.
-    $sql = "SELECT longitud, latitud, enlacecontenido, tipocontenido, id_usuario, descripcionlocalizacion FROM puntoqr, objetocultura WHERE puntoqr.enlaceweb = '$qr_id' AND objetocultura.id = puntoqr.id_objetocultura";
+    $sql = "SELECT longitud, latitud, enlacecontenido, tipocontenido, id_usuario, descripcionlocalizacion FROM puntoqr, objetocultura WHERE objetocultura.id = puntoqr.id_objetocultura";
     $result = $enlace->query($sql);
     
     if(!$result){
@@ -20,11 +20,12 @@
     }
     
     // Si se pudo procesar la consulta, codificarla en formato JSON
-    // Sabemos que solo va a devolver 1 única fila, así que el "if" es suficiente.
-    if($row = $result->fetch_assoc()){
-        // echo "resultado: " +  $result + "<br/>";
-        echo json_encode($row);
+    $codigosqr = array();
+    while($row = $result->fetch_assoc()){
+        $codigosqr[] = $row;
     }
+    
+    print json_encode($codigosqr);
     
     mysqli_close($enlace);
 ?>
