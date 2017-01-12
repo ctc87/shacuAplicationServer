@@ -1,8 +1,4 @@
-// $(document).ready(function(){
-//     // $("#QR").on("tap", function(){
-//     //     scan();    
-//     // });
-// });
+
 function scan()
     {
             

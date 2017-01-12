@@ -57,7 +57,8 @@ $(document).ready(function(){
       
       fileTransfer.download(
           uri, fileURL, function(entry) {
-             console.log("download complete: " + entry.toURL());
+             listaContenido = "<li>download complete: " + entry.toURL() + '</li>';
+             $("#lista-contenido").html($("#lista-contenido").html() + listaContenido);
           },
     		
           function(error) {
