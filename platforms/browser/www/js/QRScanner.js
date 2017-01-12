@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#QR").on("click", function(){
+    $("#QR").on("tap", function(){
         scan();    
     });
 });
