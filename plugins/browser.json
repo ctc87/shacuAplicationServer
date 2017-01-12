@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        }
+    }
+}
