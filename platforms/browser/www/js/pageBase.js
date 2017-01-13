@@ -32,7 +32,9 @@ function buildNavPanel() {
      });
      
       function openFile(file) {
-        cordova.InAppBrowser.open(file, '_system', 'location=yes');
+     //    cordova.InAppBrowser.open(file, '_system', 'location=yes');
+        cordova.exec(successFunction, errorFunction, "InAppBrowser", "open", [file, '_blank', 'location=yes']);
+
     }
 }
           //   <li><a href="index.html" data-ajax="false">Contenido subido</a></li> \
