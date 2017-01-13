@@ -565,7 +565,7 @@
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.sp.qrcode"
         },
-        "cordova-plugin-file-transfer": {
+        "com.guinatal.refreshgallery": {
             "PACKAGE_NAME": "com.sp.qrcode"
         }
     },

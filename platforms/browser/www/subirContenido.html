@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="./css/jquery-ui.icon-font.css" type="text/css" />
     <script type="text/javascript" src="cordova.js"></script>
     <script src="js/pageBase.js"></script>
     <script src="js/enviarFormulario.js"></script>
@@ -85,15 +86,17 @@
         <div data-role="collapsible" data-collapsed="true" data-icon="recycle" id="collapsableInfo">
             <h4>Cambiar contenido</h4>
             <form id="formuploadajax" enctype="multipart/form-data" action="https://servidorshacu-alu0100886870.c9users.io/subirFicheros.php" method="POST">
+                <input type="hidden" value="" id="id_qr" name="id">
                 <fieldset data-role="controlgroup">
-                    <input type="radio" name="tipoSubida" id="radio_voz" value="voz" checked="checked">
+                    <input type="radio" name="tipoSubida" id="radio_foto" value="foto" checked="checked">
+                    <label for="radio_foto">Foto</label>
+                    <input type="radio" name="tipoSubida" id="radio_voz" value="voz">
                     <label for="radio_voz">Voz</label>
+                    <button data-icon="microphone" data-iconpos="notext" id = "audioCapture" style="display:none">AUDIO</button>
                     <input type="radio" name="tipoSubida" id="radio_PDF" value="pdf">
                     <label for="radio_PDF">PDF</label>
-                    <input type="radio" name="tipoSubida" id="radio_foto" value="foto">
-                    <label for="radio_foto">Foto</label>
-                    <input type="radio" name="tipoSubida" id="radio_otro" value="otro">
-                    <label for="radio_otro">Otro</label>
+                    <input type="radio" name="tipoSubida" id="radio_TXT" value="txt">
+                    <label for="radio_TXT">TXT</label>
                     <label for="file">File:</label>
                     <input type="file" name="file" id="file" value="selecciona tu archivo para ser subido">
                     <input type="submit" value="Subir" data-inline="true"/>
@@ -102,13 +105,14 @@
         </div>
 
     </div>
-    </div>
 
+    </div>
+    <br/>    <br/>    <br/>    <br/>
 
     <!-- /content -->
 
-  <div data-role="footer"> 
-	<h2 id="msg_res"></h2> 
+  <div data-role="footer" data-position="fixed" style="text-align:center">
+	<p id="msg_res"></p>
   </div> 
     
     <!-- /footer -->

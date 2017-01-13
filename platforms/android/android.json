@@ -33,6 +33,10 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"FileOpener2\"><param name=\"android-package\" value=\"io.github.pwlin.cordova.plugins.fileopener2.FileOpener2\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
@@ -41,7 +45,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
+                            "xml": "<feature name=\"PluginRefreshGallery\"><param name=\"android-package\" value=\"com.guinatal.refreshgallery.PluginRefreshGallery\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -87,8 +91,12 @@
                             "count": 1
                         },
                         {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 2
+                            "count": 1
                         }
                     ]
                 }
@@ -596,13 +604,13 @@
         "cordova-plugin-device-motion": {
             "PACKAGE_NAME": "com.sp.qrcode"
         },
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.sp.qrcode"
-        },
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.sp.qrcode"
         },
-        "cordova-plugin-file-transfer": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "com.guinatal.refreshgallery": {
             "PACKAGE_NAME": "com.sp.qrcode"
         }
     },
@@ -860,19 +868,11 @@
             "runs": true
         },
         {
-            "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
-            "id": "cordova-plugin-file-transfer.FileTransferError",
-            "pluginId": "cordova-plugin-file-transfer",
+            "file": "plugins/com.guinatal.refreshgallery/www/pluginRefreshGallery.js",
+            "id": "com.guinatal.refreshgallery.pluginRefreshGallery",
+            "pluginId": "com.guinatal.refreshgallery",
             "clobbers": [
-                "window.FileTransferError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
-            "id": "cordova-plugin-file-transfer.FileTransfer",
-            "pluginId": "cordova-plugin-file-transfer",
-            "clobbers": [
-                "window.FileTransfer"
+                "window.refreshMedia"
             ]
         }
     ],
@@ -883,8 +883,8 @@
         "phonegap-plugin-barcodescanner": "4.0.2",
         "cordova-plugin-device-orientation": "1.0.6-dev",
         "cordova-plugin-device-motion": "1.2.4-dev",
+        "cordova-plugin-file": "4.3.1",
         "cordova-plugin-compat": "1.1.0",
-        "cordova-plugin-file": "4.3.2-dev",
-        "cordova-plugin-file-transfer": "1.6.2-dev"
+        "com.guinatal.refreshgallery": "1.0.9"
     }
 }

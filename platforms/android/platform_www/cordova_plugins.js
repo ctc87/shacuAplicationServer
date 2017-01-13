@@ -252,19 +252,11 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
-        "id": "cordova-plugin-file-transfer.FileTransferError",
-        "pluginId": "cordova-plugin-file-transfer",
+        "file": "plugins/com.guinatal.refreshgallery/www/pluginRefreshGallery.js",
+        "id": "com.guinatal.refreshgallery.pluginRefreshGallery",
+        "pluginId": "com.guinatal.refreshgallery",
         "clobbers": [
-            "window.FileTransferError"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
-        "id": "cordova-plugin-file-transfer.FileTransfer",
-        "pluginId": "cordova-plugin-file-transfer",
-        "clobbers": [
-            "window.FileTransfer"
+            "window.refreshMedia"
         ]
     }
 ];
@@ -277,9 +269,9 @@ module.exports.metadata =
     "phonegap-plugin-barcodescanner": "4.0.2",
     "cordova-plugin-device-orientation": "1.0.6-dev",
     "cordova-plugin-device-motion": "1.2.4-dev",
+    "cordova-plugin-file": "4.3.1",
     "cordova-plugin-compat": "1.1.0",
-    "cordova-plugin-file": "4.3.2-dev",
-    "cordova-plugin-file-transfer": "1.6.2-dev"
+    "com.guinatal.refreshgallery": "1.0.9"
 }
 // BOTTOM OF METADATA
 });

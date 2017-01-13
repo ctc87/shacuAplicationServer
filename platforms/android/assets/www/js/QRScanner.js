@@ -26,13 +26,13 @@ function followQR(_url) {
         function(result) {
             sessionStorage.result = result;
             var object = JSON.parse(result)
-            if(!object.caducado) {
-             $("#resultado").html(result);
-             window.location.href = "./subirContenido.html";  
+            if(object.caducado) {
+                // $("#resultado").html(result);
+                window.location.href = "./subirContenido.html";  
             } else {
-             $("#resultado").html("no caducado");
+                // $("#resultado").html(result);
+                window.location.href = "./visulizarContenido.html"; 
             }
-            //AQUI TENEMOS QUE COMPROBAR SI ESTA CADUCADO O NO DEPNDIENDO DE UNO U OTRO REDIRECIONAMOS A CADUCADO O NO CADUCADO
         }
     });   
 }
