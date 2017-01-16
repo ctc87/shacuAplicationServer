@@ -20,7 +20,7 @@
     <script src="js/pageBase.js"></script>
     <script src="js/ajaxRequest.js"></script>
     <script src="js/QRScanner.js"></script>
-    
+    <script type="text/javascript" src="js/login.js"></script>
 
 
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
@@ -37,6 +37,13 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>Share Culture App</title>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var imgLogin = sessionStorage.usuarioGoogle ? JSON.parse(sessionStorage.usuarioGoogle).imageUrl : "icon.png"
+            var icono = '<img src="'+ imgLogin + '" border="0" class="icono-cabecera">';
+            $(".icono-cabecera-link").html(icono);
+        });
+    </script>
 </head>
 
 <body>
@@ -45,6 +52,9 @@
             <br/>
             <center><img class="logo" src="./img/coollogo_com-178461935.png" /></center>
             <a href="#nav-panel" class="buttonMenu" data-icon="bars" data-iconpos="notext"></a>
+            <a class="icono-cabecera-link" href="usuario.html" data-ajax="false" data-role="button" data-corners="false" data-shadow="false" data-theme="none">' +
+                
+            </a>
             <br/>
             <br/>
 
@@ -74,24 +84,8 @@
         </script>
         <!-- /panel -->
 
-        <!--<script type="text/javascript" src="js/index.js"></script>-->
     </div>
 
-
-        <!--<div data-role="panel" data-display="push" data-theme="a" id="nav-panel">-->
-        <!--    <ul data-role="listview">-->
-        <!--        <li data-icon="delete"><a href="#" data-rel="close">Cerrar</a></li>-->
-        <!--        <li><a href="#home">Inicio</a></li>-->
-        <!--        <li><a href="prueba.html" data-ajax="false"  id="map-button">Ver mapa</a></li>-->
-        <!--        <li><a href="#panel-responsive-page2">Contenido <br/>subido</a></li>-->
-        <!--        <li><a href="#panel-responsive-page2">Contenido <br/>descargado</a></li>-->
-        <!--        <li><a href="#panel-responsive-page2">Página de <br/>ShaCu</a></li>-->
-        <!--        <li><a href="#scannedCAD">Contenido <br/>Leido(cad)</a></li>-->
-        <!--        <li><a href="#panel-responsive-page2">Contenido <br/>Leido(Nocad)</a></li>-->
-        <!--    </ul>-->
-        <!--</div>-->
-        <!-- /panel -->
-        <!-- /footer -->
     </div>
 </body>
 

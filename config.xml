@@ -24,5 +24,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <icon src="res/logo2.png" />
+    <plugin name="cordova-plugin-googleplus" spec="~5.1.1">
+        <variable name="REVERSED_CLIENT_ID" value="37500631657-n7ql72qvmjgmepaq0n7ueoobn2dq3mlj.apps.googleusercontent.com" />
+    </plugin>
 </widget>
-

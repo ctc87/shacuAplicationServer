@@ -3,7 +3,7 @@ $(function(){
         e.preventDefault();
         var f = $(this);
         var formData = new FormData(document.getElementById("formuploadajax"));
-        $("#msg_res").css("color", 'blue').html("Subiendo el archivo.");
+        $("#msg_res").css("color", 'blue').html("Subiendo el archivo.").enhanceWithin();
         formData.append("dato", "valor");
         $.ajax({
             url: "https://servidorshacu-alu0100886870.c9users.io/subirFicheros.php",
@@ -18,15 +18,18 @@ $(function(){
             var resObject = JSON.parse(res)
             var colorMsj = resObject.subida.subido ? "green" : "red";
             console.log(resObject.subida.msj);
-            $("#msg_res").css("color", colorMsj).html(resObject.subida.msj);
+            $("#msg_res").css("color", colorMsj).html(resObject.subida.msj).enhanceWithin();
         }).fail(function(err){
-            $("#msg_res").css("color", 'red').html("Error en la conexión con el servidor.");
+            $("#msg_res").css("color", 'red').html("Error en la conexión con el servidor.").enhanceWithin();
             console.log(resObject.subida.msj);
         });
     });
 });
     
 $(document).ready(function(){
+    
+    $("#id_google").val(JSON.parse(sessionStorage.usuarioGoogle).userId);
+    
     if(sessionStorage.result) {
         var obj = JSON.parse(sessionStorage.result);
         $("#id_qr").attr("value", obj.id);
@@ -34,7 +37,7 @@ $(document).ready(function(){
                              "<li class='ui-li-static ui-body-inherit'>tipo: " + obj.tipocontenido + "</li>" +
                              "<li class='ui-li-static ui-body-inherit'>localizaci&oacute;n: " + obj.descripcionlocalizacion + "</li>" +
                              "<li class='ui-li-static ui-body-inherit ui-last-child'><a  data-ajax='false' id='ext-link' href='#'>"+ obj.enlacecontenido.split('/')[obj.enlacecontenido.split('/').length - 1] +"</a></li>"; 
-        $("#lista-contenido").html(listaContenido);
+        $("#lista-contenido").html(listaContenido).enhanceWithin();
         $("#ext-link").on("click", function() {
             openFile(servidorPHP + obj.enlacecontenido);
         });
@@ -71,7 +74,7 @@ $(document).ready(function(){
     
         function onError(error) {
             console.log('Error code: ' + error.code, null, 'Capture Error');
-            $("#msg_res").css("color", 'red').html("Error en la captura del audio.");
+            $("#msg_res").css("color", 'red').html("Error en la captura del audio.").enhanceWithin();
         }
     	
     }
@@ -83,13 +86,13 @@ $(document).ready(function(){
                 function(destination) {
                     rfsu(_fileToMove, function(file) {
                         file.moveTo(destination,_name);
-                        $("#msg_res").css("color", 'blue').html("Tu audio ha sido guardado en la carpeta Records de la tarjeta SD.");   
+                        $("#msg_res").css("color", 'blue').html("Tu audio ha sido guardado en la carpeta Records de la tarjeta SD.").enhanceWithin();   
                     },fail);
             }, fail);
         }, fail);
         var fail = function(err) {
             console.log(err);
-            $("#msg_res").css("color", 'red').html("Error en el guardado en la tarjeta SD. " + JSON.stringify(err));    
+            $("#msg_res").css("color", 'red').html("Error en el guardado en la tarjeta SD. " + JSON.stringify(err)).enhanceWithin(); 
         }
     }
 

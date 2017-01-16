@@ -24,7 +24,7 @@ li a {
 }
 
 .logo {
-    width: 80%;
+    width: 70%;
 }
 
 /*
@@ -108,4 +108,25 @@ text-align: center;
 .cameraCont {
     /*position: absolute;*/
     bottom: 3.1em;
+}
+
+.icono-cabecera {
+    width:30px;
+    height:30px; 
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+     padding: 0 !important;
+     margin: 0 !important;
+}
+
+.icono-cabecera-link {
+     width: 30px !important;   
+     height: 30px !important;  
+     padding: 0 !important;
+     margin: 0 !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    
 }

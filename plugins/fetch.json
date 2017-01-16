@@ -23,14 +23,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "org.apache.cordova.inappbrowser": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-inappbrowser@1.6.1"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-device-orientation": {
         "source": {
             "type": "git",
@@ -65,10 +57,28 @@
         "is_top_level": true,
         "variables": {}
     },
-    "com.guinatal.refreshgallery": {
+    "cordova-plugin-googleplus": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-refresh-gallery"
+            "id": "cordova-plugin-googleplus"
+        },
+        "is_top_level": true,
+        "variables": {
+            "REVERSED_CLIENT_ID": "37500631657-n7ql72qvmjgmepaq0n7ueoobn2dq3mlj.apps.googleusercontent.com"
+        }
+    },
+    "cordova-plugin-media-capture": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-media-capture"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@1.6.1"
         },
         "is_top_level": true,
         "variables": {}

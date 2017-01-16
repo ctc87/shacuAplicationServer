@@ -550,9 +550,6 @@
         "org.apache.cordova.dialogs": {
             "PACKAGE_NAME": "com.sp.qrcode"
         },
-        "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.sp.qrcode"
-        },
         "phonegap-plugin-barcodescanner": {
             "PACKAGE_NAME": "com.sp.qrcode"
         },
@@ -565,7 +562,13 @@
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.sp.qrcode"
         },
-        "com.guinatal.refreshgallery": {
+        "cordova-plugin-googleplus": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.sp.qrcode"
+        },
+        "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.sp.qrcode"
         }
     },
