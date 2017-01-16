@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.ajax({url: "https://servidorshacu-alu0100886870.c9users.io/qrlocationsprueba.php", 
+    $.ajax({url: servidorPHP + "/qrlocationsprueba.php", 
     success: 
         function(result) {
             var object = JSON.parse(result);

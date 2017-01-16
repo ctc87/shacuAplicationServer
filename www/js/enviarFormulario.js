@@ -6,7 +6,7 @@ $(function(){
         $("#msg_res").css("color", 'blue').html("Subiendo el archivo.").enhanceWithin();
         formData.append("dato", "valor");
         $.ajax({
-            url: "https://servidorshacu-alu0100886870.c9users.io/subirFicheros.php",
+            url: servidorPHP + "/subirFicheros.php",
             type: "post",
             dataType: "html",
             data: formData,
