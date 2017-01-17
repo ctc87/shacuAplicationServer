@@ -1,7 +1,7 @@
 // This code creates a object with the markers information from the ajax request in the server
 $(document).ready(function(){
     if(!sessionStorage.getItem("cordinates")) {
-        $.ajax({url: "https://servidorshacu-alu0100886870.c9users.io/qrlocationsprueba.php", 
+        $.ajax({url: servidorPHP + "/qrlocationsprueba.php", 
         success: 
             function(result) {
                 var object = JSON.parse(result);
