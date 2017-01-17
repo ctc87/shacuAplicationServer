@@ -21,8 +21,7 @@ We are a group of students from the University of La Laguna. This project has be
                                             </a>
                                         </td>
                                         <td>
-                                            <a class="mailPopUp" id="mail1" href="#"><img src="http://www.shacu.tk/images/mail.png" width="20px" style="max-width:20px">
-                                            </a>
+                                            <img src="http://www.shacu.tk/images/mail.png" width="20px" style="max-width:20px"> carlos.troyano.carmona@gmail.com
                                         </td>
                                     </tr>
                                     <tr>
@@ -34,8 +33,7 @@ We are a group of students from the University of La Laguna. This project has be
                                             </a>
                                         </td>
                                         <td>
-                                            <a class="mailPopUp" id="mail2" href="#"><img src="http://www.shacu.tk/images/mail.png" style="max-width:20px" width="20px">
-                                            </a>
+                                            <img src="http://www.shacu.tk/images/mail.png" style="max-width:20px" width="20px">alu0100886870@ull.edu.es
                                         </td>
                                     </tr>
                                 </tbody></table>
