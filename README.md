@@ -7,13 +7,8 @@ ShaCu lets you share voice, videos, small texts, such as chapter books or poems.
 Go to page [Shacu](http:\\www.shacu.tk) click in download section and get the apk. Install it in your Android phone.
 
 ## Usage
+Download it search a markup in map follow it and scan the QRCode to insert or seeing a cultural content.
 
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
 ## Credits
 We are a group of students from the University of La Laguna. This project has been developed around two subjects: Personal computer interaction and smart interfaces. The project participants are:
 <table>
@@ -44,6 +39,7 @@ We are a group of students from the University of La Laguna. This project has be
                                         </td>
                                     </tr>
                                 </tbody></table>
+
 ## License
 [![Licencia de Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)  
 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">ShaCu</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Carlos Troyano Carmona, Miguel Castro Caraballo</span> is licensed under a [Creative Commons Reconocimiento 4.0 Internacional License](http://creativecommons.org/licenses/by/4.0/).
