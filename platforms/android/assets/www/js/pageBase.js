@@ -2,7 +2,9 @@
 /** Actua como base para las páginas que vayan a usar el mismo tipo de estructuras. */
 
 /** constante con la dirección del servidor */ 
-var servidorPHP = 'https://servidorshacu-alu0100886870.c9users.io'
+
+var servidorPHP = 'http://www.shacu.tk/'
+//var servidorPHP = 'https://servidorshacu-alu0100886870.c9users.io'
 
 /** Esta funcion crea un header superior fijo, con menú */
 function buildBaseHeader(title) {
