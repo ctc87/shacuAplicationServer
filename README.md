@@ -17,32 +17,33 @@ Go to page [Shacu](http:\\www.shacu.tk) click in download section and get the ap
 ## Credits
 We are a group of students from the University of La Laguna. This project has been developed around two subjects: Personal computer interaction and smart interfaces. The project participants are:
 <table>
-
-<tbody>
-
-<tr>
-
-<td>Carlos Troyano Carmona</td>
-
-<td>[![](http://www.shacu.tk/images/github.png)](https://github.com/ctc87) </td>
-
-<td>[![](http://www.shacu.tk/images/mail.png)](#) </td>
-
-</tr>
-
-<tr>
-
-<td>Miguel Castro Caraballo</td>
-
-<td>[![](http://www.shacu.tk/images/github.png)](https://github.com/alu0100886870) </td>
-
-<td>[![](http://www.shacu.tk/images/mail.png)](#) </td>
-
-</tr>
-
-</tbody>
-
-</table>
+                                    <tbody><tr>
+                                        <td>
+                                            Carlos Troyano Carmona
+                                        </td>
+                                        <td>
+                                            <a href="https://github.com/ctc87" target="_blank"><img src="http://www.shacu.tk/images/github.png" width="20px" style="max-width:20px">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a class="mailPopUp" id="mail1" href="#"><img src="http://www.shacu.tk/images/mail.png" width="20px" style="max-width:20px">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Miguel Castro Caraballo
+                                        </td>
+                                        <td>
+                                            <a href="https://github.com/alu0100886870" target="_blank"><img src="http://www.shacu.tk/images/github.png" width="20px" style="max-width:20px">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a class="mailPopUp" id="mail2" href="#"><img src="http://www.shacu.tk/images/mail.png" style="max-width:20px" width="20px">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
 ## License
 [![Licencia de Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)  
 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">ShaCu</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Carlos Troyano Carmona, Miguel Castro Caraballo</span> is licensed under a [Creative Commons Reconocimiento 4.0 Internacional License](http://creativecommons.org/licenses/by/4.0/).
