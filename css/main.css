@@ -1,0 +1,124 @@
+html,
+body,
+.tag {
+ width: 100% !important;
+ height: 100% !important;
+ margin: 0px !important;
+ padding: 0px !important;
+ overflow: hidden !important;
+}
+
+.noScroll {
+ overflow: hidden;
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ 
+}
+
+body {
+ background-image: url("../images/back.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.hidden {
+ display: none;
+}
+
+
+/*tag {*/
+
+
+/*}*/
+
+header {
+ width: 99%;
+ height: 15%;
+ padding-left: 1%;
+ padding-top: 1%;
+ /*position:fixed;*/
+ /*text-align: left;*/
+ position: relative;
+ /*border-bottom: 3px solid black;*/
+ overflow: visible !important;
+}
+
+header * {
+ display: inline-block;
+}
+
+#logoTitle {
+ cursor: pointer;
+ display: inline-block;
+ width: 15%;
+ height: auto;
+}
+
+#imgTitle {
+ width: 100%;
+ height: auto;
+}
+
+#logo {
+ margin-left: 30%;
+ width: 33.3%;
+}
+
+footer {
+ width: 100%;
+ /*height: 5%;*/
+ position: absolute;
+ bottom: 0px;
+}
+
+.arrow {
+ display: inline-table;
+ height: 75px;
+ width: 90px;
+ background: url("../images/arrowSheet.png") 15px top;
+ /*background: url("../images/arrowSheet.png") -1245px top;*/
+ background-repeat: no-repeat;
+ cursor: pointer;
+ position: absolute;
+}
+
+.arrowBottom {
+ right: 1%;
+ bottom: 1vW;
+}
+
+.arrowTop {
+ right: 1%;
+ top: 0.5vW;
+ -moz-transform: scaleY(-1);
+ -o-transform: scaleY(-1);
+ -webkit-transform: scaleY(-1);
+ transform: scaleY(-1);
+}
+
+.arrwBottomBlack {
+ /*background-position: -1245px top;*/
+ background-position: right top;
+}
+
+.arrowAnimatedDark {
+ animation: darkenArrow 0.5s steps(16);
+}
+
+.arrowAnimatedLight {
+ animation: lighArrow 0.8s steps(15);
+}
+
+@keyframes darkenArrow {
+ 100% {
+  background-position: -1425px;
+ }
+}
+
+@keyframes lighArrow {
+ 100% {
+  background-position: 15px;
+ }
+}

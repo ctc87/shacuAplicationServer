@@ -1,0 +1,59 @@
+.informationBox {
+    background: rgb(255, 255, 255);
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.explanationBox {
+    margin-left: 12.5%;
+    margin-top: 20vH;
+    width: 70%;
+    text-align: center;
+    padding: 3%;
+}
+
+.aboutUsBox,
+.contactBox,
+.dowloadBox {
+    position: absolute;
+    margin-top: 10vH;
+    margin-left: 12.5%;
+    width: 70%;
+    text-align: center;
+    padding: 3%;
+}
+
+.dowloadBox img {
+    width: 30%;
+    height: auto;
+}
+
+.contactBox textarea {
+    width: 50%;
+    height: 10vw;
+    text-align: left;
+    padding: 3px;
+}
+
+.aboutUsBox table {
+    text-align: left;
+}
+
+.aboutUsBox img {
+    width: 2vw;
+    height: auto;
+    margin-left: 5vW;
+}
+
+.informationBox article p {
+    padding-top: 5%;
+}
+
+#subtag1 {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    /*background-color: black;  */
+    /*opacity: 0.5;*/
+}
