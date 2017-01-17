@@ -1,6 +1,6 @@
 <?php    
     // Conectar a MySQL
-    $enlace = mysqli_connect("127.0.0.1", "root", "", "shacu");
+    $enlace = mysqli_connect("127.0.0.1", "ctc87", "Dbz111187?", "shacu");
 
     if (!$enlace) {
         echo "Error: No se pudo conectar a MySQL." . PHP_EOL;

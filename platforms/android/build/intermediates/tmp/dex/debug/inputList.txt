@@ -1,0 +1,12 @@
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/classes/debug
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-24.0.0-4d636310cb312aa2f68ea6ddcea6a3d9d9cd7e16.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-2787229f4c43bd3c8d109e1c4730b59a8194a555.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-886416e80028f2932f7757d46d9d802968421dfc.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-5f0900f8abdaad07e370711b45a58d6a435c682f.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-1b96735266e8c762f1adff4692e9fb714cf0a41f.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-92e33840107bb2ec14cfd2cf3f4d0213fa4aeedf.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-24.0.0-36b63d4225ea23afa3ec84fb6c9017a7393950a9.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-98897c6f92e79233579a4256bf01ba050ca321a8.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-5e58a63f01324c7d9829e19b391178a9274b44fe.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/com.google.zxing.client.android.captureactivity-48a9bad283bb63ffe7252953a9d18555fd961094.jar
+/home/troyano/phonegap/shacuAplicationServer/platforms/android/build/intermediates/pre-dexed/debug/classes-61c1789838d8d060e1df5c18cb3b992f0b635b8c.jar
