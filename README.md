@@ -1,1 +1,1 @@
-# paginaSHACU
+# Shacu PHP server example
