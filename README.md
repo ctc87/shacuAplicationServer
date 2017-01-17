@@ -4,7 +4,7 @@ Shacu is an application to share culture through QR codes. For this you have to 
 ShaCu lets you share voice, videos, small texts, such as chapter books or poems. And much more. Be the first to share with shacu.
 
 ## Installation
-Go to page [![Shacu](http:\\www.shacu.tk)] click in download section and get the apk. Install it in your Android phone.
+Go to page <a href="http:\\www.shacu.tk">Shacu</a> click in download section and get the apk. Install it in your Android phone.
 
 ## Usage
 Download it search a markup in map follow it and scan the QRCode to insert or seeing a cultural content.
